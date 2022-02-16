@@ -14,7 +14,6 @@ class class-name {
 |`protected`|สมาชิกของ class สามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()|
 
 *สมาชิกของ class หมายถึง `Data Members` และ `Member Functions`
-
 **ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
 
 #### ตัวอย่าง
