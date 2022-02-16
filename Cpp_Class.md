@@ -21,10 +21,28 @@ class class-name {
 class Student {
     public:
         // member function ชื่อ setName
-        void setName(std::string n) {
+        void setName(std::string& n) {
             name = n;
         }
     private:
         std::string name; // data member ชื่อ name
 };
+```
+```
+class Student {
+    public:
+        void setName(std::string&); // forward declaration
+    private:
+        std::string name;
+};
+// member function definition
+void Student::setName(std::string& n) {
+    name = n;
+}
+int main() {
+    Student student1;           // สร้าง Object ชื่อ student1
+    student1.setName("Alice");
+    student1.name = "Alice";    // error เพราะ name เป็น private
+    return 0;
+}
 ```
