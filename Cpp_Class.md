@@ -7,6 +7,7 @@ class class-name {
     protected : member-declaration
 };
 ```
+|:---:|:---:|
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของ class สามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
