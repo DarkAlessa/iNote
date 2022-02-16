@@ -1,5 +1,5 @@
 # C++ Class
-##### โครงสร้าง class
+โครงสร้าง class
 ```
 class class-name {
     public : member-declaration
@@ -15,7 +15,7 @@ class class-name {
 
 *สมาชิกของ class หมายถึง `Data Members` และ `Member Functions` ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
 
-##### ตัวอย่าง
+ตัวอย่าง
 ```
 class Student {
     public:
