@@ -4,9 +4,9 @@
 ```
 class-key class-name {member-specification};
 ```
-class-key   เช่น class, struct, union   
-class-name  ชื่อคลาส   
-[member-specification](#S-member-specification) รายการของ access-specifiers, data member และ member function   
+`class-key`   เช่น class, struct, union   
+`class-name`  ชื่อคลาส   
+`[member-specification](#S-member-specification)` รายการของ access-specifiers, data member และ member function   
 ***
 ### การประกาศล่วงหน้า (Forward declaration)
 ```
