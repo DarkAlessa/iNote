@@ -1,6 +1,6 @@
 # C++ Class
-* [การประกาศคลาส (Class declaration)](#S-class-structure)
-## <a name="S-class-structure"></a>การประกาศคลาส (Class declaration)
+* [การประกาศคลาส (Class declaration)](#S-class-structure)   
+# <a name="S-class-structure"></a>การประกาศคลาส (Class declaration)
 ```
 class-key class-name {member-specification};
 ```
