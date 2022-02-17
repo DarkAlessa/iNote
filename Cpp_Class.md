@@ -9,9 +9,22 @@ class-key class-name : base-specifier-list {member-specification};  ...(2)
 |:---|:--|
 |class-key|เช่น class, struct, union|
 |class-name|ชื่อคลาส|
-|[member-specification](#S-member-specification)|รายการของ access-specifiers, member object และ member function|
+|[member-specification](#S-member-specification)|รายการของ access-specifiers, data member และ member function|
 
-### Access specifiers
+### การประกาศล่วงหน้า (Forward declaration)
+```
+class-key identifier;
+```
+เป็นการประกาศคลาสแต่ไม่มีการนิยามคลาส (definition)
+```
+class Student;      // forward declaration
+class Student {     // class definition
+    ...
+};
+```
+
+### <a name="S-member-specification"></a>Member Specification
+* Access specifiers
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
@@ -19,11 +32,6 @@ class-key class-name : base-specifier-list {member-specification};  ...(2)
 |`protected`|สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()|
 >\*สมาชิกของคลาสหมายถึง `Data Members` และ `Member Functions`<br>
 >\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
-
-### <a name="S-member-specification"></a>Member Specification
-
-
-
 
 ตัวอย่าง
 ```
