@@ -9,10 +9,11 @@ class-key class-name {member-specification};
 * [member-specification](#S-member-specification) : รายการของ access-specifiers, data member และ member function   
 
 ## การประกาศล่วงหน้า (Forward declaration)
-```
-class-key identifier;
-```
 เป็นการประกาศคลาสแต่ไม่มีการนิยามคลาส (definition)
+```
+class-key class-name;
+```
+ตัวอย่างการประกาศล่วงหน้าและการนิยามคลาส
 ```
 class Student;      // forward declaration
 class Student {     // class definition
