@@ -24,7 +24,7 @@ class Student {     // class definition
 ```
 
 ### <a name="S-member-specification"></a>Member Specification
-* Access specifiers
+#### Access specifiers
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
