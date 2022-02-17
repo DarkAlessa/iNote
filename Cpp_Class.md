@@ -9,7 +9,7 @@ class-key class-name : base-specifier-list {member-specification};  ...(2)
 |:---|:--|
 |class-key|เช่น class, struct, union|
 |class-name|ชื่อคลาส|
-|member-specification}|รายการของ access-specifiers, member object และ member function|
+|member-specification|รายการของ access-specifiers, member object และ member function|
 <br>
 Access Specifier
 <br>
