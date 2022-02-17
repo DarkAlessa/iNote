@@ -3,7 +3,7 @@
 ## <a name="S-class-structure"></a>โครงสร้าง Class
 ```
 class ชื่อคลาส {
-    access specifier : สมาชิกของคลาส
+    access-specifier : สมาชิกของคลาส
 };
 ```
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
