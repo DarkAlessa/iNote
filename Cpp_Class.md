@@ -29,9 +29,8 @@ class Student {     // class definition
 `private`   สมาชิกของคลาสเข้าถึงได้เฉพาะภายใน class   
 `protected` สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()   
 >\*สมาชิกของคลาสหมายถึง `Data Members` และ `Member Functions`   
->\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
+>\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private   
 
-ตัวอย่าง
 ```
 class Student {
     public:
