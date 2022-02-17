@@ -11,7 +11,7 @@ class-key class-name {
 * [member-specification](#S-member-specification) : รายการของ access-specifiers, data member และ member function   
 
 ## การประกาศล่วงหน้า (Forward declaration)
-เป็นการประกาศคลาสแต่ไม่มีการนิยามคลาส (definition)
+เป็นการประกาศคลาสโดยที่ยังไม่มีการนิยามคลาส(definition) ในขณะที่ประกาศ โดยจะนิยามคลาสภายหลัง
 ```
 class-key class-name;
 ```
