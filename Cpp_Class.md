@@ -1,5 +1,6 @@
 # C++ Class
-## โครงสร้าง Class
+* [โครงสร้าง Class](#S-class-structure)
+## <a name="S-class-structure"></a>โครงสร้าง Class
 ```
 class class-name {
     public : member-declaration
