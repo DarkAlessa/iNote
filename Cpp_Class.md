@@ -5,21 +5,20 @@
 class-key class-name {member-specification};                        ...(1)
 class-key class-name : base-specifier-list {member-specification};  ...(2)
 ```
+<table>
 |||
 |:---|:--|
 |class-key|เช่น class, struct, union|
 |class-name|ชื่อคลาส|
 |member-specification|รายการของ access-specifiers, member object และ member function|
-<br/>
-x
-x
-----
+</table>
+<table>
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
 |`private`|สมาชิกของคลาสเข้าถึงได้เฉพาะภายใน class|
 |`protected`|สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()|
-
+</table>
 >\*สมาชิกของคลาสหมายถึง `Data Members` และ `Member Functions`<br>
 >\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
 
