@@ -22,6 +22,7 @@ class Student {     // class definition
     ...
 };
 ```
+\*[object](https://en.wikipedia.org/wiki/Object_(computer_science)) และ non-inline function ไม่สามารถมีนิยามมากกว่าหนึ่งนิยามตามกฎของ [One Definition Rule](https://en.wikipedia.org/wiki/One_Definition_Rule)   
 ## <a name="S-member-specification"></a>Member Specification
 ### ตัวระบุการเข้าถึง (Access specifiers)
 `public`    สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()   
