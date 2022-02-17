@@ -4,11 +4,9 @@
 ```
 class-key class-name {member-specification};
 ```
-|||
-|:---|:--|
-|class-key|เช่น class, struct, union|
-|class-name|ชื่อคลาส|
-|[member-specification](#S-member-specification)|รายการของ access-specifiers, data member และ member function|
+class-key   เช่น class, struct, union
+class-name  ชื่อคลาส
+[member-specification](#S-member-specification) รายการของ access-specifiers, data member และ member function
 
 ### การประกาศล่วงหน้า (Forward declaration)
 ```
@@ -24,11 +22,9 @@ class Student {     // class definition
 
 ### <a name="S-member-specification"></a>Member Specification
 #### Access specifiers
-|ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
-|:---|:--|
-|`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
-|`private`|สมาชิกของคลาสเข้าถึงได้เฉพาะภายใน class|
-|`protected`|สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()|
+`public`    สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()
+`private`   สมาชิกของคลาสเข้าถึงได้เฉพาะภายใน class
+`protected` สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()
 >\*สมาชิกของคลาสหมายถึง `Data Members` และ `Member Functions`<br>
 >\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private
 
