@@ -10,7 +10,8 @@ class-key class-name : base-specifier-list {member-specification};  ...(2)
 |class-key|เช่น class, struct, union|
 |class-name|ชื่อคลาส|
 |member-specification|รายการของ access-specifiers, member object และ member function|
-<br><br>
+
+### Access specifiers
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
