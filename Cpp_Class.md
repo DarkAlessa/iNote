@@ -2,7 +2,9 @@
 * [การประกาศคลาส (Class declaration)](#S-class-structure)   
 ## <a name="S-class-structure"></a>การประกาศคลาส (Class declaration)
 ```
-class-key class-name {member-specification};
+class-key class-name {
+    member-specification
+};
 ```
 * class-key :   เช่น class, struct, union   
 * class-name : ชื่อคลาส   
