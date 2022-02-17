@@ -20,7 +20,7 @@ class Student {     // class definition
 };
 ```
 # <a name="S-member-specification"></a>Member Specification
-#### Access specifiers
+## Access specifiers
 `public`    สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()   
 `private`   สมาชิกของคลาสเข้าถึงได้เฉพาะภายใน class   
 `protected` สมาชิกของคลาสสามารถเข้าถึงได้จาก subclass แต่ไม่สามารถเข้าถึงได้จาก main()   
