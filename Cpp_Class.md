@@ -7,7 +7,7 @@ class-key class-name {member-specification};
 class-key   เช่น class, struct, union   
 class-name  ชื่อคลาส   
 [member-specification](#S-member-specification) รายการของ access-specifiers, data member และ member function   
-
+***
 ### การประกาศล่วงหน้า (Forward declaration)
 ```
 class-key identifier;
@@ -19,7 +19,7 @@ class Student {     // class definition
     ...
 };
 ```
-
+***
 ### <a name="S-member-specification"></a>Member Specification
 #### Access specifiers
 `public`    สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()   
