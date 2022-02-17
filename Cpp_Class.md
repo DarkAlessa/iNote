@@ -42,7 +42,7 @@ void Student::setName(std::string& n) {
 }
 int main() {
     Student student1;           // สร้าง Object ชื่อ student1
-    student1.setName("Alice");
+    student1.setName("Alice");  // ok, setName เป็น publice
     student1.name = "Alice";    // error เพราะ name เป็น private
     return 0;
 }
