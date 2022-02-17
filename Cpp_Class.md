@@ -11,7 +11,8 @@ class-key class-name : base-specifier-list {member-specification};  ...(2)
 |class-name|ชื่อคลาส|
 |member-specification}|รายการของ access-specifiers, member object และ member function|
 <br>
-Access Specifier<br>
+Access Specifier
+<br>
 |ตัวระบุการเข้าถึง (Access specifiers)|คำอธิบาย|
 |:---|:--|
 |`public`|สมาชิกของคลาสสามารถเข้าถึงได้จากนอก class ทั้งจาก subclass และจาก main()|
