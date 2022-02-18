@@ -11,11 +11,11 @@ union U {
 ```
 #include <iostream>
 
-struct X { int a = 1, b = 2; };
+struct X { int a, b; };
 union U
 {
     X x;
-    struct Y { int c = 3, d = 4, e = 5; };
+    struct Y { int c, d, e; };
     struct Z;   // forward declaration
 };
 struct U::Z { int m, n, o, p; };
@@ -38,11 +38,11 @@ sizeof(U)     : 8-byte
 ```
 จากโค้ดด้านบนจะเห็นว่าขนาดของ U คือ 8-byte ซึ่งเป็นขนาดของตัวแปร x จาก struct X เนื่องจาก struct Y และ struct Z ยังไม่มีการประกาศตัวแปร struct ภายใน U   
 ```
-struct X { int a = 1, b = 2; };
+struct X { int a, b; };
 union U
 {
     X x;
-    struct Y { int c = 3, d = 4, e = 5; } y;
+    struct Y { int c, d, e; } y;
     struct Z;   // forward declaration
 };
 struct U::Z { int m, n, o, p; };
