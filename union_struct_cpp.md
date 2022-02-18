@@ -1,5 +1,5 @@
 # Union และ Struct
-ขนาดของ`union`เท่ากับขนาดของ type ที่ใหญ่ที่สุดใน union
+ขนาดของ `union` เท่ากับขนาดของ type ที่ใหญ่ที่สุดใน union
 ```
 union U {
     int a;          // 4-byte
