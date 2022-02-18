@@ -1,4 +1,13 @@
 # Union และ Struct
+`union` ขนาดของ union เท่ากับขนาดของ type ที่ใหญ่ที่สุดใน union
+```
+union U {
+    int a;          // 4-byte
+    double b;       // 8-byte
+    long double c;  // 16-byte
+};
+// sizeof(U) จะมีค่าเท่ากับ 16-byte
+```
 ```
 #include <iostream>
 
