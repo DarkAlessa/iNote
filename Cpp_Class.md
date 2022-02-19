@@ -43,4 +43,10 @@ class Student {
 };
 ```
 ### Constructors
+constructor เป็นเมมเบอร์ฟังก์ชันพิเศษที่มีคุณสมบัติ   
+- มีชื่อเดียวกับชื่อคลาส
+- ถูกเรียกเมื่อสร้าง object (instance ของคลาส)
+- ไม่มีการส่งคืนค่า
+- ต้องสร้างเป็น public
+- หากไม่มีการระบุ constructor คอมไพเลอร์จะสร้างขึ้นมาโดยอัตโนมัติ
 ![Constructors](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128195435/CPP-Constructors.png)
