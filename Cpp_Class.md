@@ -42,3 +42,5 @@ class Student {
         std::string name; // data member ชื่อ name
 };
 ```
+### Constructors
+![Constructors](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191128195435/CPP-Constructors.png)
