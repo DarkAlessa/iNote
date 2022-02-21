@@ -32,7 +32,7 @@ class X {
 };
 int main() {
   X x;                // ok สร้าง object ไม่มี argument ได้
-  X y("Hello World")  // ok สร้าง object ได้
+  X y("Hello World"); // ok สร้าง object ได้
 }
 ```
 
