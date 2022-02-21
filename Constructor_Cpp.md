@@ -1,7 +1,7 @@
 # Constructor
 
 ถ้าหากคลาสไม่สร้างไม่มี constructor คอมไพเลอร์จะสร้าง default constructor ขึ้นมาให้   
-```
+```c++
 class x {
 };
 int main() {
@@ -9,7 +9,7 @@ int main() {
 }
 ```
 แต่ถ้าหากเราสร้าง constructor ขึ้นมาเองคอมไพเลอร์จะไม่สร้าง default constructor   
-```
+```c++
 class X {
   public:
     X(const std::string& text) : text(text) {}
@@ -22,7 +22,7 @@ int main() {
 }
 ```
 หากต้องการสร้าง object ที่ไม่มี argument ต้องสร้าง default constructor เอง   
-```
+```c++
 class X {
   public:
     X() = default;  // หรือ X(){}
