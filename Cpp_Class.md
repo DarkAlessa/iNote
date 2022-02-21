@@ -1,7 +1,7 @@
 # C++ Class
 * [การประกาศคลาส (Class declaration)](#S-class-structure)   
 ## <a name="S-class-structure"></a>การประกาศคลาส (Class declaration)
-```
+```c++
 class-key class-name {
     member-specification
 };
