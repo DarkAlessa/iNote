@@ -12,11 +12,11 @@ class-key class-name {
 
 ## การประกาศล่วงหน้า (Forward declaration)
 เป็นการประกาศคลาสโดยที่ยังไม่มีการนิยามคลาส(definition) ในขณะที่ประกาศ โดยจะนิยามคลาสภายหลัง
-```
+```c++
 class-key class-name;
 ```
 ตัวอย่างการประกาศล่วงหน้าและการนิยามคลาส
-```
+```c++
 class Student;      // forward declaration
 class Student {     // class definition
     ...
@@ -31,7 +31,7 @@ class Student {     // class definition
 >\*สมาชิกของคลาสหมายถึง `Data Members` และ `Member Functions`   
 >\*ถ้าไม่ระบุ access specifier สมาชิกของคลาสจะเป็น private   
 
-```
+```c++
 class Student {
     public:
         // member function ชื่อ setName
