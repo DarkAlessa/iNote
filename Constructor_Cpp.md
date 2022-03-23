@@ -1,6 +1,6 @@
 # Constructor
 
-ถ้าหากคลาสไม่สร้างไม่มี constructor คอมไพเลอร์จะสร้าง default constructor ขึ้นมาให้   
+ถ้าหากคลาสไม่สร้าง constructor คอมไพเลอร์จะสร้าง default constructor ขึ้นมาให้   
 ```c++
 class x {
 };
@@ -18,7 +18,7 @@ class X {
 };
 int main() {
   X x;                // แจ้งแตือน "note: candidate expects 1 argument, 0 provided"
-  X x("Hello World")  // ok สร้าง object ได้
+  X x("Hello World"); // ok สร้าง object ได้
 }
 ```
 หากต้องการสร้าง object ที่ไม่มี argument ต้องสร้าง default constructor เอง   
